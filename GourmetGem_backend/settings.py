@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-gmt5fu$b=%4u429mp(va!rc41k$&n$3e=k0(attn6)4)gv!*no
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['52.204.247.191', 'http://reactfrontend2.s3-website-us-east-1.amazonaws.com']
+ALLOWED_HOSTS = ['52.204.247.191']
 
 
 # Application definition
@@ -55,8 +55,11 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
 ]
 
+CORS_ALLOW_ALL_ORIGINS = True
+
 CORS_ORIGIN_WHITELIST = [
-     'http://localhost:5173'
+     'http://localhost:5173',
+     'http://reactfrontend2.s3-website-us-east-1.amazonaws.com'
 ]
 
 ROOT_URLCONF = "GourmetGem_backend.urls"
