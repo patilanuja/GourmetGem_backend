@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-gmt5fu$b=%4u429mp(va!rc41k$&n$3e=k0(attn6)4)gv!*no
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['54.159.99.153', '12.0.139.245']
+ALLOWED_HOSTS = ['54.159.99.153', '12.0.139.245', '3.87.56.17']
 
 
 # Application definition
