@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-gmt5fu$b=%4u429mp(va!rc41k$&n$3e=k0(attn6)4)gv!*no"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['54.159.99.153', '12.0.139.245', '3.87.56.17']
+ALLOWED_HOSTS = ['54.159.99.153', '12.0.139.245', '3.87.56.17', 'localhost', '127.0.0.1', 'load-balancer-344825617.us-east-1.elb.amazonaws.com']
 
 
 # Application definition
