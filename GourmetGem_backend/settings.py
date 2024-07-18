@@ -58,8 +58,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ORIGIN_WHITELIST = [
      'http://localhost:5173',
-     'http://s3frontend.s3-website-us-east-1.amazonaws.com',
-     'https://d2p506i46um7mw.cloudfront.net'
+     'http://s3frontend.s3-website-us-east-1.amazonaws.com'
 ]
 
 ROOT_URLCONF = "GourmetGem_backend.urls"
